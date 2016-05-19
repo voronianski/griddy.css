@@ -1,0 +1,27 @@
+$griddy-cols: 12;
+
+.griddy {
+  clear: fix;
+
+  [class*="griddy-col"] {
+    width: 100%;
+  }
+
+  &-col {
+    float: left;
+  }
+  &-col-right {
+    float: right;
+  }
+
+  @media(max-width: 768px) {
+    @for @col from 1 to $griddy-cols {
+      .griddy-col-@col {
+        width: calc((@col / $griddy-cols) * 100%);
+      }
+      .griddy-offset-@col {
+        margin-left: calc((@col / $griddy-cols) * 100%);
+      }
+    }
+  }
+}
