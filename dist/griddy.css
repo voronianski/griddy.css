@@ -22,7 +22,7 @@
     float: right;
 }
 
-@media(max-width: 768px) {
+@media(min-width: 768px) {
 
     .griddy .griddy-col-1 {
 

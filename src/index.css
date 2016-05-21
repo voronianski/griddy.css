@@ -14,7 +14,7 @@ $griddy-cols: 12;
     float: right;
   }
 
-  @media(max-width: 768px) {
+  @media(min-width: 768px) {
     @for @col from 1 to $griddy-cols {
       .griddy-col-@col {
         width: calc((@col / $griddy-cols) * 100%);
