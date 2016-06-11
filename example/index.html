@@ -11,15 +11,83 @@
             padding: 0;
             box-sizing: border-box;
         }
-        .container > div {
+        body {
+            font-family: 'Helvetica Neue', sans-serif;
+            padding: 30px;
+        }
+        .container {
             border: 1px solid #ddd;
+        }
+        .container .griddy > div {
+            border: 1px solid #ddd;
+            padding: 10px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
         }
     </style>
 </head>
 <body>
-    <div class="container griddy">
-        <div class="griddy-col griddy-col-4">col + col-4</div>
-        <div class="griddy-col griddy-col-8">col + col-8</div>
+    <div class="container">
+        <div class="griddy">
+            <div class="griddy-col griddy-col-1">.col.col-1</div>
+            <div class="griddy-col griddy-col-11">.col.col-11</div>
+        </div>
+
+        <div class="griddy">
+            <div class="griddy-col griddy-col-2">.col.col-2</div>
+            <div class="griddy-col griddy-col-10">.col.col-10</div>
+        </div>
+
+
+        <div class="griddy">
+            <div class="griddy-col griddy-col-3">.col.col-3</div>
+            <div class="griddy-col griddy-col-9">.col.col-9</div>
+        </div>
+
+        <div class="griddy">
+            <div class="griddy-col griddy-col-4">.col.col-4</div>
+            <div class="griddy-col griddy-col-8">.col.col-8</div>
+        </div>
+
+        <div class="griddy">
+            <div class="griddy-col griddy-col-5">.col.col-5</div>
+            <div class="griddy-col griddy-col-7">.col.col-7</div>
+        </div>
+
+        <div class="griddy">
+            <div class="griddy-col griddy-col-6">.col.col-6</div>
+            <div class="griddy-col griddy-col-6">.col.col-6</div>
+        </div>
+
+        <div class="griddy">
+            <div class="griddy-col griddy-col-7">.col.col-7</div>
+            <div class="griddy-col griddy-col-5">.col.col-5</div>
+        </div>
+
+        <div class="griddy">
+            <div class="griddy-col griddy-col-8">.col.col-8</div>
+            <div class="griddy-col griddy-col-4">.col.col-4</div>
+        </div>
+
+        <div class="griddy">
+            <div class="griddy-col griddy-col-9">.col.col-9</div>
+            <div class="griddy-col griddy-col-3">.col.col-3</div>
+        </div>
+
+        <div class="griddy">
+            <div class="griddy-col griddy-col-10">.col.col-10</div>
+            <div class="griddy-col griddy-col-2">.col.col-2</div>
+        </div>
+
+        <div class="griddy">
+            <div class="griddy-col griddy-col-11">.col.col-11</div>
+            <div class="griddy-col griddy-col-1">.col.col-1</div>
+        </div>
+
+        <div class="griddy">
+            <div class="griddy-col griddy-col-12">.col.col-12</div>
+        </div>
     </div>
 </body>
 </html>
