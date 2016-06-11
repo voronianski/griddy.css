@@ -1,6 +1,6 @@
 # griddy.css
 
-> CSS 12 column based grid in ~1Kb.
+> Responsive 12 column based grid in ~1Kb.
 
 <img src="https://dl.dropboxusercontent.com/u/100463011/griddy-css.gif" width="600" />
 
@@ -34,6 +34,14 @@ or
     <div class="griddy-col griddy-col-4 griddy-offset-6">.col.col-4.offset-6</div>
 </div>
 ```
+
+### List of classes
+
+- `.griddy`
+- `.griddy-col`
+- `.griddy-col-right`
+- `.griddy-col-{COLUMN NUMBER}`
+- `.griddy-offset-{OFFSET NUMBER}`
 
 ---
 
