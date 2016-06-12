@@ -13,7 +13,7 @@ npm i griddy.css --save
 or 
 
 ```html
-<link rel="stylesheet" href="https://npmcdn.com/griddy.css/dist/griddy.min.css" type="text/css" />
+<link rel="stylesheet" href="https://npmcdn.com/griddy.css@1.0.0/dist/griddy.min.css" type="text/css" />
 ```
 
 ## Examples
