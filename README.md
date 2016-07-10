@@ -1,6 +1,6 @@
 # griddy.css
 
-> Responsive 12 column based grid in ~1Kb.
+> Responsive 12 column based grid in 311 Bytes when gzipped.
 
 <img src="https://dl.dropboxusercontent.com/u/100463011/griddy-css.gif" width="600" />
 
